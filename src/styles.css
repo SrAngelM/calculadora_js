@@ -1,0 +1,33 @@
+body{
+  background-color: #E2E2E7;
+  font-weight: bold;
+}
+
+.calculator{
+  max-width: 22rem;
+  background-color: #A3A1A0;
+}
+
+#secondDisplay, #primaryDisplay, #simbolDisplay{
+  min-height: 3rem;
+  background-color: #836D5E;
+  color: #E2E2E7 !important;
+  
+}
+
+.col-3{
+  max-width: 4.8rem;
+}
+
+button{
+  width: 4rem;
+  height: 4rem;
+  background-color: #31312D !important;
+  color: #E2E2E7 !important;
+}
+
+@media only screen and (max-width: 410px) {
+  .calculator{
+    min-width: 25rem;
+  }
+}
